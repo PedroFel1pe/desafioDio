@@ -1,0 +1,21 @@
+#desafio classificador de nivel de heroi
+print('vamos descobrir em qual categoria você se enquadra com base no seu nivel!!')
+nome = str(input('como devo te chamar?'))
+nivel = int(input('Qual seu nivel de XP atualmente?'))
+if nivel <= 1000:
+    print(' atualmente ' + nome + ' esta na categoria ferro !')
+#nivel >= 1001 and nivel <=2000 funciona dessa forma tambem
+elif 1001 <= nivel <= 2000:
+    print('Você atualmente esta na categoria bronze !')
+elif 2001 <= nivel <= 5000:
+    print('Você atualmente esta na categoria prata !')
+elif 5001 <= nivel <= 7000:
+    print('Você atualmente esta na categoria ouro !')
+elif 7001 <= nivel <= 8000:
+    print('Você atualmente esta na categoria platina !')
+elif 8001 <= nivel <= 9000:
+    print('Você atualmente esta na categoria ascendente !')
+elif 9001 <= nivel <= 10000:
+    print('Você atualmente esta na categoria imortal !')
+elif nivel > 10000:
+    print('Você atualmente esta na categoria radiante !')
